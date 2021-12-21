@@ -2,10 +2,12 @@
 Directional Simon Says game inspired by Run BTS! Ep. 140
 
 Made in AP CS Principles 2021
-# Directions before running code:
+## Directions before running code:
 
 Make sure you download the audio, prgm_image resources into the same folder as the main functioning code.
-Run the vroomVroom_adv.py code (demo 1) or game_app.py (demo 2) or lead_game.py (demo 3) or sync_game.py (demo 4) or trials.py for full compiliation of previous demos. 
+Run the vroomVroom_adv.py code (demo 1) or game_app.py (demo 2) or lead_game.py (demo 3) or sync_game.py (demo 4) or 
+###### trials.py
+for full compiliation of previous demos. 
 
 Created: 2 November BE 2564 09:00 | 
 Modified: 10 November 2021 19:21 | 8 December 2021 23:35 | 9 December 2021 07:57 | 10 December BE 2564 11:47 | 14 December 2021 11:01 | 
@@ -16,7 +18,7 @@ Modified: 10 November 2021 19:21 | 8 December 2021 23:35 | 9 December 2021 07:57
 
 
 
-# MIT License
+###### MIT License
 
 Copyright (c) [2021] [Kawinthida Haase]
 
