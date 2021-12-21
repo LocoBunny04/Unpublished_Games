@@ -1,0 +1,166 @@
+khaase@Kawinthida-Haase-MacBook VroomFold % /usr/local/bin/python3 /Users/khaase/Desktop/VroomFold/trials.py
+abrupt stop
+caller abrupt stop
+user 
+abrupt stop
+caller abrupt stop
+user abrupt stop
+abrupt stop
+caller abrupt stop
+user abrupt stop
+speed bump
+caller speed bump
+user abrupt stop
+go
+caller go
+user speed bump
+left
+caller left
+user go
+go
+caller go
+user left
+left
+caller left
+user go
+right
+caller right
+user left
+True
+mnb 9/9
+
+go
+caller go
+user right
+left
+caller left
+user go
+user left
+right
+caller right
+user left
+speed bump
+caller speed bump
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 145, in rStPress
+    rst_trace(rP)
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 330, in rst_trace
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 303, in whilePoint
+    point.clear(); atmpt.clear()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2644, in clear
+    self._update()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2661, in _update
+    self._update_data()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2647, in _update_data
+    self.screen._incrementudc()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1293, in _incrementudc
+    raise Terminator
+turtle.Terminator
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 133, in startPress
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 176, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 312, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 352, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/trials.py", line 170, in callerChoose
+    si.write(caller_txt,font=("Arial",15))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 3432, in write
+    end = self._write(str(arg), align.lower(), font)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 3403, in _write
+    item, end = self.screen._write(self._position, txt, align, font,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 595, in _write
+    item = self.cv.create_text(x-1, -y, text = txt, anchor = anchor[align],
+  File "<string>", line 1, in create_text
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2810, in create_text
+    return self._create('text', args, kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2776, in _create
+    return self.tk.getint(self.tk.call(
+_tkinter.TclError: invalid command name ".!canvas"
+zsh: segmentation fault  /usr/local/bin/python3 /Users/khaase/Desktop/VroomFold/trials.py
+khaase@Kawinthida-Haase-MacBook VroomFold % 

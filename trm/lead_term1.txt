@@ -1,0 +1,760 @@
+khaase@Kawinthida-Haase-MacBook VroomFold %  /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 64979 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+left
+caller left
+user 
+speed bump
+caller speed bump
+left
+caller left
+go
+caller go
+right
+caller right
+right
+caller right
+go
+caller go
+go
+caller go
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65079 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+speed bump
+caller speed bump
+user 
+speed bump
+caller speed bump
+user speed bump
+right
+caller right
+user speed bump
+right
+caller right
+abrupt stop
+caller abrupt stop
+go
+caller go
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 137, in rStPress
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 157, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 284, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 315, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 157, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 276, in whilePoint
+    point.write(ah,font=("Arial",15))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 3432, in write
+    end = self._write(str(arg), align.lower(), font)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 3403, in _write
+    item, end = self.screen._write(self._position, txt, align, font,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 595, in _write
+    item = self.cv.create_text(x-1, -y, text = txt, anchor = anchor[align],
+  File "<string>", line 1, in create_text
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2810, in create_text
+    return self._create('text', args, kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2776, in _create
+    return self.tk.getint(self.tk.call(
+_tkinter.TclError: invalid command name ".!canvas"
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 119, in startPress
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 315, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 157, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 284, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 315, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 157, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 284, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 315, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 157, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 284, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 315, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 157, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 268, in whilePoint
+    point.write(str(count),font=("Arial",15))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 3432, in write
+    end = self._write(str(arg), align.lower(), font)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 3403, in _write
+    item, end = self.screen._write(self._position, txt, align, font,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 595, in _write
+    item = self.cv.create_text(x-1, -y, text = txt, anchor = anchor[align],
+  File "<string>", line 1, in create_text
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2810, in create_text
+    return self._create('text', args, kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2776, in _create
+    return self.tk.getint(self.tk.call(
+_tkinter.TclError: invalid command name ".!canvas"
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65183 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65244 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+abrupt stop
+caller abrupt stop
+user 
+left
+caller left
+go
+caller go
+user abrupt stop
+user abrupt stop
+press
+Ying
+
+True
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65294 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65299 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65306 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+right
+caller right
+right
+caller right
+speed bump
+caller speed bump
+user 
+speed bump
+caller speed bump
+user right
+right
+caller right
+user speed bump
+left
+caller left
+user right
+user left
+go
+caller go
+user left
+user go
+speed bump
+caller speed bump
+press
+Ying
+
+True
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65380 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+speed bump
+caller speed bump
+left
+caller left
+left
+caller left
+user 
+go
+caller go
+user left
+left
+caller left
+user go
+right
+caller right
+user left
+user right
+go
+caller go
+user left
+go
+caller go
+user go
+speed bump
+caller speed bump
+user go
+left
+caller left
+user speed bump
+left
+caller left
+user left
+abrupt stop
+caller abrupt stop
+user left
+abrupt stop
+caller abrupt stop
+user abrupt stop
+speed bump
+caller speed bump
+user abrupt stop
+press
+Ying
+
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 133, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 299, in rst_trace
+    f.write(name, count, 'out of', attempt) #checks to see if code is a completed string consisting of letters and numbers
+TypeError: TextIOWrapper.write() takes exactly one argument (4 given)
+left
+caller left
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65423 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+speed bump
+caller speed bump
+user 
+speed bump
+caller speed bump
+user speed bump
+left
+caller left
+user speed bump
+abrupt stop
+caller abrupt stop
+press
+Ying
+
+True
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 65478 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+speed bump
+caller speed bump
+user 
+go
+caller go
+user speed bump
+left
+caller left
+user go
+abrupt stop
+caller abrupt stop
+user left
+abrupt stop
+caller abrupt stop
+user abrupt stop
+abrupt stop
+caller abrupt stop
+user abrupt stop
+speed bump
+caller speed bump
+go
+caller go
+user abrupt stop
+left
+caller left
+user abrupt stop
+abrupt stop
+caller abrupt stop
+user left
+go
+caller go
+press
+Ying
+
+True
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49185 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+right
+caller right
+user 
+speed bump
+caller speed bump
+user right
+user speed bump
+left
+caller left
+user go
+press
+Ying
+
+True
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49269 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Ying
+go
+caller go
+user 
+speed bump
+caller speed bump
+user go
+speed bump
+caller speed bump
+user speed bump
+right
+caller right
+user speed bump
+go
+caller go
+user right
+right
+caller right
+user go
+left
+caller left
+user right
+speed bump
+caller speed bump
+user left
+abrupt stop
+caller abrupt stop
+press
+Ying
+
+True
+8 8
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49320 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+Y
+right
+caller right
+user 
+user abrupt stop
+speed bump
+caller speed bump
+user right
+go
+caller go
+user speed bump
+right
+caller right
+user go
+right
+caller right
+user right
+speed bump
+caller speed bump
+user right
+go
+caller go
+user speed bump
+right
+caller right
+user go
+press
+Y
+
+True
+6 8
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49369 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+abrupt stop
+caller abrupt stop
+user 
+left
+caller left
+user abrupt stop
+abrupt stop
+caller abrupt stop
+user left
+go
+caller go
+user abrupt stop
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49398 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+abrupt stop
+caller abrupt stop
+user 
+go
+caller go
+user abrupt stop
+abrupt stop
+caller abrupt stop
+user go
+go
+caller go
+user abrupt stop
+go
+caller go
+user go
+abrupt stop
+caller abrupt stop
+user go
+go
+caller go
+user abrupt stop
+speed bump
+caller speed bump
+user go
+abrupt stop
+caller abrupt stop
+user speed bump
+go
+caller go
+user abrupt stop
+speed bump
+caller speed bump
+press
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 296, in rst_trace
+    f.write(name, count) #checks to see if code is a completed string consisting of letters and numbers
+TypeError: TextIOWrapper.write() takes exactly one argument (2 given)
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49463 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+user 
+abrupt stop
+caller abrupt stop
+user right
+right
+caller right
+user abrupt stop
+right
+caller right
+user right
+left
+caller left
+user right
+abrupt stop
+caller abrupt stop
+press
+True
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49864 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+user 
+speed bump
+caller speed bump
+user right
+go
+caller go
+user speed bump
+user go
+go
+caller go
+user abrupt stop
+go
+caller go
+user go
+abrupt stop
+caller abrupt stop
+user go
+right
+caller right
+user abrupt stop
+speed bump
+caller speed bump
+user right
+user speed bump
+abrupt stop
+caller abrupt stop
+user speed bump
+left
+caller left
+user abrupt stop
+go
+caller go
+user left
+go
+caller go
+user go
+right
+caller right
+user go
+abrupt stop
+caller abrupt stop
+user right
+left
+caller left
+press
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 296, in rst_trace
+    f.write(name, count, attempt) #checks to see if code is a completed string consisting of letters and numbers
+TypeError: TextIOWrapper.write() takes exactly one argument (3 given)
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 49993 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+speed bump
+caller speed bump
+user 
+right
+caller right
+user speed bump
+left
+caller left
+user right
+speed bump
+caller speed bump
+user left
+right
+caller right
+user speed bump
+left
+caller left
+user right
+right
+caller right
+user left
+right
+caller right
+user right
+abrupt stop
+caller abrupt stop
+user right
+go
+caller go
+user abrupt stop
+user go
+speed bump
+caller speed bump
+user go
+press
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 296, in rst_trace
+    f.write('\n',name, count, attempt) #checks to see if code is a completed string consisting of letters and numbers
+TypeError: TextIOWrapper.write() takes exactly one argument (4 given)
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50069 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+left
+caller left
+user 
+speed bump
+caller speed bump
+user left
+abrupt stop
+caller abrupt stop
+user speed bump
+right
+caller right
+user abrupt stop
+speed bump
+caller speed bump
+user right
+user speed bump
+go
+caller go
+user go
+press
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 294, in rst_trace
+    lead = str(name, '', count, '' , attempt)
+TypeError: str() takes at most 3 arguments (5 given)
+right
+caller right
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50490 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+speed bump
+caller speed bump
+user 
+left
+caller left
+user speed bump
+user left
+user left
+speed bump
+caller speed bump
+user left
+abrupt stop
+caller abrupt stop
+user speed bump
+go
+caller go
+user abrupt stop
+left
+caller left
+user go
+left
+caller left
+user left
+left
+caller left
+user left
+right
+caller right
+user left
+speed bump
+caller speed bump
+press
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 294, in rst_trace
+    lead = str(name + '' + count + ''  + attempt)
+TypeError: can only concatenate str (not "int") to str
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50543 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+speed bump
+caller speed bump
+user 
+right
+caller right
+user speed bump
+left
+caller left
+user right
+abrupt stop
+caller abrupt stop
+user left
+right
+caller right
+user abrupt stop
+speed bump
+caller speed bump
+user right
+speed bump
+caller speed bump
+user speed bump
+right
+caller right
+user speed bump
+left
+caller left
+press
+True
+Try2 68
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 299, in rst_trace
+    f.write('\n',lead) #checks to see if code is a completed string consisting of letters and numbers
+TypeError: TextIOWrapper.write() takes exactly one argument (2 given)
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50587 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+left
+caller left
+user 
+right
+caller right
+user left
+go
+caller go
+user right
+go
+caller go
+user go
+go
+caller go
+user go
+left
+caller left
+user go
+press
+True
+Try3 4/6
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50657 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+user 
+speed bump
+caller speed bump
+user right
+left
+caller left
+user speed bump
+speed bump
+caller speed bump
+user left
+go
+caller go
+user speed bump
+right
+caller right
+user go
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 52346 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 52405 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 52428 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53122 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53183 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53206 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53474 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53671 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53704 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53753 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+left
+caller left
+user 
+left
+caller left
+user left
+go
+caller go
+user left
+speed bump
+caller speed bump
+user go
+right
+caller right
+user speed bump
+speed bump
+caller speed bump
+user right
+abrupt stop
+caller abrupt stop
+user speed bump
+left
+caller left
+user abrupt stop
+abrupt stop
+caller abrupt stop
+press
+True
+nameinpuO 5/8
+
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53867 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+user 
+right
+caller right
+user right
+speed bump
+caller speed bump
+user right
+go
+caller go
+user speed bump
+press
+True
+nainpT 4/4
+
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 54235 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold % 

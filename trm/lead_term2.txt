@@ -1,0 +1,180 @@
+khaase@Kawinthida-Haase-MacBook VroomFold %  /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50462 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+user 
+speed bump
+caller speed bump
+user right
+go
+caller go
+user speed bump
+speed bump
+caller speed bump
+user go
+speed bump
+caller speed bump
+user speed bump
+user speed bump
+speed bump
+caller speed bump
+user go
+go
+caller go
+user speed bump
+speed bump
+caller speed bump
+user go
+go
+caller go
+user speed bump
+abrupt stop
+caller abrupt stop
+user go
+left
+caller left
+press
+True
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 132, in rStPress
+    rst_trace()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 294, in rst_trace
+    lead = str(name + '' + count + ''  + attempt)
+TypeError: can only concatenate str (not "int") to str
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 50613 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+go
+caller go
+user 
+speed bump
+caller speed bump
+user go
+speed bump
+caller speed bump
+user speed bump
+go
+caller go
+user speed bump
+user go
+speed bump
+caller speed bump
+user right
+right
+caller right
+user speed bump
+speed bump
+caller speed bump
+user right
+abrupt stop
+caller abrupt stop
+user speed bump
+go
+caller go
+user abrupt stop
+press
+True
+Try4 7/9
+
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 52033 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+right
+caller right
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 616, in eventfun
+    fun(x, y)
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 125, in startPress
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 327, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 165, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 292, in whilePoint
+    gameMain()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 327, in gameMain
+    callerChoose()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 165, in callerChoose
+    whilePoint()
+  File "/Users/khaase/Desktop/VroomFold/lead_game.py", line 283, in whilePoint
+    point.clear()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2643, in clear
+    self._clear()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2621, in _clear
+    self.screen._delete(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 556, in _delete
+    self.cv.delete(item)
+  File "<string>", line 1, in delete
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 2823, in delete
+    self.tk.call((self._w, 'delete') + args)
+_tkinter.TclError: invalid command name ".!canvas"
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 52379 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 52397 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 53999 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+right
+caller right
+user 
+speed bump
+caller speed bump
+user right
+go
+caller go
+user speed bump
+speed bump
+caller speed bump
+user go
+right
+caller right
+press
+True
+inpL 4/4
+
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 54082 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+abrupt stop
+caller abrupt stop
+user 
+right
+caller right
+user abrupt stop
+right
+caller right
+user right
+right
+caller right
+user right
+press
+True
+linT 4/4
+
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 54225 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+speed bump
+caller speed bump
+user 
+left
+caller left
+user speed bump
+user left
+go
+caller go
+user left
+right
+khaase@Kawinthida-Haase-MacBook VroomFold %  cd /Users/khaase/Desktop/VroomFold ; /usr/bin/env /usr/local/bin/python3 /Users/khaase/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/lib/python/debugpy/launcher 54433 -- /Users/khaase/Desktop/VroomFold/lead_game.py 
+abrupt stop
+caller abrupt stop
+user 
+right
+caller right
+user abrupt stop
+left
+caller left
+user right
+press
+True
+inlT 3/3
+
+khaase@Kawinthida-Haase-MacBook VroomFold %  
