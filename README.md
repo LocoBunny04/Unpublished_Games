@@ -1,7 +1,7 @@
 # Vroom-Vroom-BTS-Edition
 Directional Simon Says game inspired by Run BTS! Ep. 140
 
-Made in AP CS Principles 2021
+Made in AP CS ~~Principles~~ 2021
 ## Directions before running code:
 
 Make sure you download the audio, prgm_image resources into the same folder as the main functioning code.
